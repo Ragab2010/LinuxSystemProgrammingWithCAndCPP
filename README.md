@@ -48,7 +48,41 @@ This directory implements additional utilities inspired by Unix commands.
 - `pipe_string.cpp`: Example demonstrating string pipelining.
 - `show_morev7.gif`: GIF demonstrating the execution of `morev7` utility.
 
-*(Continue this pattern for other directories)*
+## 13
+*(Add description and contents for directory 13)*
+
+## 14
+*(Add description and contents for directory 14)*
+
+## 26
+*(Add description and contents for directory 26)*
+
+## 27
+*(Add description and contents for directory 27)*
+
+## 28
+*(Add description and contents for directory 28)*
+
+## 29
+*(Add description and contents for directory 29)*
+
+## 30
+*(Add description and contents for directory 30)*
+
+## 34
+*(Add description and contents for directory 34)*
+
+## 35
+*(Add description and contents for directory 35)*
+
+## 36
+*(Add description and contents for directory 36)*
+
+## files
+*(Add description and contents for directory 'files')*
+
+## random_examples
+*(Add description and contents for directory 'random_examples')*
 
 ---
 
