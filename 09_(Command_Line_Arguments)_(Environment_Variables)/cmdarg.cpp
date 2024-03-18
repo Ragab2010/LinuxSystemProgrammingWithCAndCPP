@@ -8,7 +8,7 @@ int main(int argc , char **argv){
     if(nameOfProgram == "./hello"s){
         cout<<"I'm called by the name hello\n";
     }else {
-        cout<<"I'm called by the name byte\n";
+        cout<<"I'm called by the name cmdarg\n";
     }
     return 0;
 }
