@@ -86,4 +86,3 @@ This directory implements additional utilities inspired by Unix commands.
 
 ---
 
-Feel free to explore each directory to understand various concepts of system programming on Linux. If you have any questions or suggestions, feel free to open an issue or pull request. Happy coding!
