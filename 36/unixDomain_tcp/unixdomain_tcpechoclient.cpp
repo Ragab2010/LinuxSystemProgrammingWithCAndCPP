@@ -12,13 +12,9 @@
 #include <cstring>
 #include <sys/types.h>
 #include <sys/socket.h>
-#include <netinet/in.h>
-#include <netinet/tcp.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <unistd.h>
 #include <sys/un.h>
-#include <cstring>
+#include <unistd.h>
+
 
 
 
