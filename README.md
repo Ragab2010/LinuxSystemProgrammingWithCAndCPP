@@ -66,8 +66,10 @@ This directory covers file permission management (`chmod`), ownership management
 This directory implements functionalities similar to the `ls` command in Unix.
 
 **Contents:**
-- Examples (`lsv0.cpp`, `lsv1.cpp`, ...) showcasing different functionalities of `ls`.
+- (`lsv0.cpp`, `lsv1.cpp`, ...) Examples  of showcasing different functionalities of `ls`.
 - `readdir.cpp`: Example illustrating directory reading.
+
+![Implement_UNIX_ls_utility](14_(Implement_UNIX_ls_utility)/execute_ls_utility.gif)
 
 ## 26_(pipe)_(unidirectional_and_bidirectional)
 This directory covers unidirectional and bidirectional communication using pipes.
