@@ -1,3 +1,11 @@
+
+/*
+*  Program creates a named pipe, myfifo and
+*  opens it in write mode and 
+*  gets input from user and continuously writes in myfifo
+*  usage: ./write_process
+*/
+
 #include<iostream>
 #include <sys/types.h>
 #include <sys/stat.h>

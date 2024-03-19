@@ -1,3 +1,9 @@
+/*
+*  Program creates a named pipe, myfifo and
+*  opens it in read mode and continuously reads from myfifo 
+*  and displays the characters read on stdout as well
+*  usage: ./read_process
+*/
 #include<iostream>
 #include <sys/types.h>
 #include <sys/stat.h>
