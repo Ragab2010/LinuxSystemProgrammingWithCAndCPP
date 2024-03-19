@@ -50,8 +50,17 @@ void print_file_info(const char *file_name) {
     strftime(time_str, sizeof(time_str), "%b %d %H:%M", localtime(&file_stat.st_mtime));
     printf("%s ", time_str);
 
-    printf("%s\n", file_name);
+    // Get just the file name from the full path
+    const char *file_name_only = strrchr(file_name, '/');
+    if (file_name_only != NULL) {
+        file_name_only++; // Move past the '/'
+    } else {
+        file_name_only = file_name; // No '/' found, use the entire path
+    }
+
+    printf("%s\n", file_name_only);
 }
+
 
 void list_directory(const char *dir_name, int detailed_listing) {
     DIR *dir = opendir(dir_name);
@@ -67,6 +76,7 @@ void list_directory(const char *dir_name, int detailed_listing) {
         
         char file_path[PATH_MAX];
         snprintf(file_path, PATH_MAX, "%s/%s", dir_name, entry->d_name);
+        // snprintf(file_path, PATH_MAX, "%s", entry->d_name);
 
         if (detailed_listing) {
             print_file_info(file_path);
