@@ -1,3 +1,10 @@
+/*
+*  Program writes to a named pipe (pipe_for_teacher_receives) and then 
+*  reads from another named pipe (pipe_for_teacher_sends)
+*  usage: ./student_process
+*/
+
+
 #include<iostream>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -23,7 +30,7 @@ int main(){
     read(fd_read , &buff[0] , buff.size());
     cout<<buff.c_str()<<endl;
 
-    string msgFromStudent {"Okey Teacher , I going to do my homework"};
+    string msgFromStudent {"message from student: Okey Teacher , I going to do my homework"};
     //send the msgFromTeacher to student
     write(fd_write , msgFromStudent.c_str() , msgFromStudent.size()+1);
 
