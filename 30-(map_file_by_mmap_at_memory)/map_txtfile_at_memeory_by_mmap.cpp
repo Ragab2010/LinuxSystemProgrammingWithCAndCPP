@@ -1,3 +1,9 @@
+/*
+*  Program mmaps an entire file in its address space
+*  and then display its contents on stdout
+*  usage: ./map_txtfile_at_memeory_by_mmap
+*/
+
 #include<iostream>
 #include <sys/types.h>
 #include <sys/stat.h>

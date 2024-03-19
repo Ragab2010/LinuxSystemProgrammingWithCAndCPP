@@ -1,3 +1,10 @@
+/*
+*  Program mmaps an entire file in its address space
+*  and then do a fork, both the child and parent
+*  displays contents of file on stdout
+*  usage: ./map_with_sharedfile_between_child_parent_processes
+*/
+
 #include<iostream>
 #include <sys/types.h>
 #include <sys/stat.h>

@@ -1,3 +1,8 @@
+/*
+*  Program mmaps an entire file in its address space
+*  and then write some more txt in that memory mapped region
+*  usage: ./writeTo_txtfile_by_mmap
+*/
 #include<iostream>
 #include <sys/types.h>
 #include <sys/stat.h>
