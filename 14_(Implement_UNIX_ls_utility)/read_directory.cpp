@@ -1,13 +1,23 @@
-#include <stdio.h>
+/*
+*  list all the file that at the directory 
+*  usage: ./read_directory /home
+
+*/
+
+#include <iostream>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <dirent.h>
 #include <errno.h>
 #include <dirent.h>
 
-
-int main() {
-    const char *dirName = "/home";
+using namespace std;
+int main(int argc , char **argv) {
+    if (argc <2){
+        cerr<<"there is no input directory "<<endl;
+        return 1;
+    }
+    const char *dirName = argv[1];
     DIR *  home_dir = opendir(dirName);
     if(home_dir ==NULL){
         return 1;
@@ -20,10 +30,10 @@ int main() {
             return errno;
         }
         if(entry == NULL && errno == 0){
-            printf("\nEnd of directory\n");
+            cout<<"\nEnd of directory\n";
             return 0;
         }
-        printf("%s   ",entry->d_name);
+        cout<<"   "<<entry->d_name<<endl;
     }
     closedir(home_dir);
 

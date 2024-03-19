@@ -1,3 +1,13 @@
+/*
+*  lsv1.cpp: implement simple ls unix utility  with optional -l
+*  usage:./lsv4 
+        ./lsv4    dirpath
+        ./lsv4 -l dirpath
+        ./a.out dir1 dir2 dir3
+*/
+
+
+
 #include <stdio.h>
 #include <dirent.h>
 #include <stdlib.h>
