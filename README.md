@@ -73,10 +73,12 @@ This directory implements functionalities similar to the `ls` command in Unix.
 This directory covers unidirectional and bidirectional communication using pipes.
 
 **Contents:**
-- `bidirectional_comm_pipe_fork.cpp`: Example of bidirectional communication using pipes.
-- `simple_unidirectional_pipe.cpp`: Example of unidirectional pipe communication.
+- `unidirectional_pipe_between_parent_child_processes.cpp`: Example of Use a pipe between two related processes, child is a reader process while parent is a writer process.
+- `bidirectional_pipe_between_parent_child_processes.cpp`: Example of Bidirectional communication using two pipes between two related processes, Parent writes first and child reads, Child writes later and parent reads.
+- `simple_unidirectional_pipe.cpp`: Example of a pipe shows the usage of a pipe withing a single process.
+- `perform_cat_f1.txt_|_wc.cpp`: Example of *  A program that simulate following shell command: `cat f1.txt | wc -l`.
 
-![pipe_communication](26_(pipe)_(unidirectional_and_bidirectional)/pipe_communication.gif)
+![pipe_communication](26_(pipe)_(unidirectional_and_bidirectional)/pipe_execution_program.gif)
 
 ## 27_(named_pipe_FIFO)
 This directory explores named pipes (FIFO) and their usage for inter-process communication.
