@@ -82,9 +82,15 @@ This directory covers unidirectional and bidirectional communication using pipes
 This directory explores named pipes (FIFO) and their usage for inter-process communication.
 
 **Contents:**
-- Examples of using FIFO with unrelated processes in bidirectional, unidirectional, and C++ scenarios.
+- `/use_fifo_with_unrelated_process_unidirectionalwrite_process.cpp `: Example of creates a named pipe, myfifo and opens it in write mode and  gets input from user and continuously writes in myfifo.
+- `/use_fifo_with_unrelated_process_unidirectionalread_process.cpp`: Example of opens myfifo in read mode and continuously reads from it and displays the characters read on stdout as well.
 
-![named_pipe_FIFO](27_(named_pipe_FIFO)/named_pipe_FIFO.gif)
+![named_pipe_FIFO](27_(named_pipe_FIFO)/use_fifo_with_unrelated_process_unidirectional/unidirectional_FIFO.gif)
+
+- `/use_fifo_with_unrelated_process_biodirection/teacher_process.cpp `: Example of creates two named pipes, pipe_for_teacher_sends and pipe_for_teacher_receives , reads from pipe_for_teacher_receives and then writes to the pipe_for_teacher_sends.
+- `use_fifo_with_unrelated_process_biodirection/student_process.cpp`: Example of writes to a named pipe (pipe_for_teacher_receives) and then reads from another named pipe (pipe_for_teacher_sends).
+
+![named_pipe_FIFO](27_(named_pipe_FIFO)//use_fifo_with_unrelated_process_biodirection/biodirection_FIFO.gif)
 
 ## 28_(message_queue)
 This directory covers inter-process communication using message queues.
