@@ -1,3 +1,10 @@
+/*
+*  Program gets the id of an existing message queue,
+*  reads a message from that queue and 
+*  display the mtext on stdout
+*  usage: ./receiver
+*/
+
 #include<iostream>
 #include <sys/types.h>
 #include <sys/ipc.h>

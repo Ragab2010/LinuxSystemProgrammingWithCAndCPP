@@ -1,3 +1,9 @@
+/*
+*  Program creates a message queue,
+*  sends two messages in that queue and terminate
+*  usage: ./sender
+*/
+
 #include<iostream>
 #include <sys/types.h>
 #include <sys/ipc.h>
