@@ -119,7 +119,7 @@ This directory demonstrates memory mapping of files using `mmap()`.
 This directory implements a TCP echo server.
 
 **Contents:**
-- `tcpechoserver.cpp `, `tcpechoclient.cpp`): Example of a TCP echo server and client.
+- (`tcpechoserver.cpp `, `tcpechoclient.cpp`): Example of a TCP echo server and client.
 
 ![tcp_echo_server](34_(tcp_echo_server)/tcpserver_echo_with_netstat.gif)
 
