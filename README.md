@@ -90,7 +90,8 @@ This directory explores named pipes (FIFO) and their usage for inter-process com
 This directory covers inter-process communication using message queues.
 
 **Contents:**
-- Examples of sending and receiving messages between processes using message queues.
+- `sender.cpp `: Examples of creates a message queue, and sends two messages in that queue then terminate.
+- `receiver.cpp `: Examples of gets the id of an existing message queue, and reads a message from that queue and display the mtext on stdout then terminate.
 
 ![message_queue](28_(message_queue)/message_queue.gif)
 
@@ -135,9 +136,11 @@ This directory covers communication using Unix domain sockets for TCP and UDP pr
 
 **Contents:**
 - (`unixdomain_tcpechoclient.cpp `, `unixdomain_tcpechoserver.cpp`): Examples of TCP bidirectional communication using Unix domain sockets.
+
 ![unixDomain_communication](36_(unixDomain_tcp)_(unixDomain_udp)/unixDomain_tcp/echo_unixDomain_tcp.gif)
 
 - (`unixdomain_udpreceiver.cpp.cpp `, `unixdomain_udpsender.cpp`): Examples of udp  unidirectional communication using Unix domain sockets.
+
 ![unixDomain_communication](36_(unixDomain_tcp)_(unixDomain_udp)/unixDomain_udp/echo_unixdomain_udp.gif)
 
 
