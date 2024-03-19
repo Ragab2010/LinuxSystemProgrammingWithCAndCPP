@@ -106,9 +106,11 @@ This directory covers inter-process communication using shared memory.
 This directory demonstrates memory mapping of files using `mmap()`.
 
 **Contents:**
-- Examples of mapping files into memory and manipulating them.
+- `map_txtfile_at_memeory_by_mmap.cpp `Examples of mapping the files  f1.txt  into memory and manipulating them.
+- `map_with_sharedfile_between_child_parent_processes.cpp `Examples of mapping the files  f1.txt  into memory and do a fork, both the child and parent displays contents of file on stdout
 
-![map_file_by_mmap](30-(map_file_by_mmap_at_memory)/map_file_by_mmap.gif)
+
+![map_file_by_mmap](30-(map_file_by_mmap_at_memory)/map_txtfile.gif)
 
 ## 34_(tcp_echo_server)
 This directory implements a TCP echo server.
