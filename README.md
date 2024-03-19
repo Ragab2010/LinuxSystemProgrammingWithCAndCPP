@@ -130,10 +130,10 @@ This directory implements a UDP echo server.
 This directory covers communication using Unix domain sockets for TCP and UDP protocols.
 
 **Contents:**
-- Examples (`unixdomain_tcpechoclient.cpp `, `unixdomain_tcpechoserver.cpp`): Examples of TCP bidirectional communication using Unix domain sockets.
+- (`unixdomain_tcpechoclient.cpp `, `unixdomain_tcpechoserver.cpp`): Examples of TCP bidirectional communication using Unix domain sockets.
 ![unixDomain_communication](36_(unixDomain_tcp)_(unixDomain_udp)/unixDomain_tcp/echo_unixDomain_tcp.gif)
 
-- Examples (`unixdomain_udpreceiver.cpp.cpp `, `unixdomain_udpsender.cpp`): Examples of udp  unidirectional communication using Unix domain sockets.
+- (`unixdomain_udpreceiver.cpp.cpp `, `unixdomain_udpsender.cpp`): Examples of udp  unidirectional communication using Unix domain sockets.
 ![unixDomain_communication](36_(unixDomain_tcp)_(unixDomain_udp)/unixDomain_udp/echo_unixdomain_udp.gif)
 
 
