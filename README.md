@@ -143,5 +143,3 @@ This directory contains miscellaneous file-related examples.
 *(Add descriptions and GIF images for the remaining directories)*
 
 ---
-
-Feel free to explore each directory to understand various concepts of system programming on Linux. If you have any questions or suggestions, feel free to open an issue or pull request. Happy coding!
