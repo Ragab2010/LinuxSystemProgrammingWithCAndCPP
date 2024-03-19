@@ -1,6 +1,10 @@
+/*
+*  A program that simulate following shell command
+*  cat f1.txt | wc -l
+*/
 #include<iostream>
 #include <unistd.h>
-#include <fcntl.h>              /* Obtain O_* constant definitions */
+#include <fcntl.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
