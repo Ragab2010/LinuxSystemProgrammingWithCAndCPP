@@ -1,3 +1,11 @@
+/*
+*  Program creates a shared memory region,
+*  gets a string from user and write that to 
+*  the shared memory region
+*  detach the shared memory and exits
+*  usage: ./writer
+*/
+
 #include<iostream>
 #include <string>
 #include <cstring>

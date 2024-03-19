@@ -1,3 +1,11 @@
+/*
+*  Program gets the id of an existing shared memory region,
+*  attach it to its adress space
+*  read the data and display it on stdout
+*  detach the memory segment and deletes it
+*  usage: ./reader
+*/
+
 #include<iostream>
 #include <string>
 #include <cstring>
