@@ -1,6 +1,12 @@
+/*
+*  Bidirectional communication using two pipes between two related processes
+*  Parent writes first and child reads
+*  Child writes later and parent reads
+*/
+
 #include<iostream>
 #include <unistd.h>
-#include <fcntl.h>              /* Obtain O_* constant definitions */
+#include <fcntl.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
