@@ -108,7 +108,7 @@ This directory demonstrates memory mapping of files using `mmap()`.
 **Contents:**
 - `map_txtfile_at_memeory_by_mmap.cpp `Examples of mapping the files  f1.txt  into memory and manipulating them.
 - `map_with_sharedfile_between_child_parent_processes.cpp `Examples of mapping the files  f1.txt  into memory and do a fork, both the child and parent displays contents of file on stdout
-
+- `writeTo_txtfile_by_mmap.cpp `Examples of create files  f2.txt and mapping it  into memory then write at the map and do sync.
 
 ![map_file_by_mmap](30-(map_file_by_mmap_at_memory)/map_txtfile.gif)
 
