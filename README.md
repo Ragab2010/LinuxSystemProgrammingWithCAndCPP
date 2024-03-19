@@ -98,9 +98,11 @@ This directory covers inter-process communication using message queues.
 This directory covers inter-process communication using shared memory.
 
 **Contents:**
-- Examples of sharing memory segments between processes using shared memory.
+- `writer.cpp `: Examples of creates sharing memory segment and gets a string from user and write that to the shared memory segment then detach it and exits.
+- `reader.cpp `: Examples of gets the id of an existing shared memory segment and attach it to its address space
+,read the data and display it on stdout then detach the shared memory segment and deletes it.
 
-![ipc_shared_memory](29_(ipc_shared_memory)/ipc_shared_memory.gif)
+![ipc_shared_memory](29_(ipc_shared_memory)/shared_memory.gif)
 
 ## 30-(map_file_by_mmap_at_memory)
 This directory demonstrates memory mapping of files using `mmap()`.
