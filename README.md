@@ -114,17 +114,17 @@ This directory demonstrates memory mapping of files using `mmap()`.
 This directory implements a TCP echo server.
 
 **Contents:**
-- Example of a TCP echo server and client.
+- `tcpechoserver.cpp `, `tcpechoclient.cpp`): Example of a TCP echo server and client.
 
-![tcp_echo_server](34_(tcp_echo_server)/tcp_echo_server.gif)
+![tcp_echo_server](34_(tcp_echo_server)/tcpserver_echo_with_netstat.gif)
 
 ## 35_(udp_echo_server)
 This directory implements a UDP echo server.
 
 **Contents:**
-- Example of a UDP echo server and client.
+- (`udpechoclient_connected.cpp `, `udpechoclient_unconnected.cpp`,`udpechoclient_unconnected.cpp`): Example of a UDP echo server and client.
 
-![udp_echo_server](35_(udp_echo_server)/udp_echo_server.gif)
+![udp_echo_server](35_(udp_echo_server)/udpserver_echo.gif)
 
 ## 36_(unixDomain_tcp)_(unixDomain_udp)
 This directory covers communication using Unix domain sockets for TCP and UDP protocols.
