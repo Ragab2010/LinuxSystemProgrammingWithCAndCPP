@@ -134,8 +134,7 @@ This directory implements a TCP echo server.
 ![tcp_echo_server](34_(tcp_echo_server)/tcpserver_echo_with_netstat.gif)
 - Tcp 3way HandShake and 4-way Connection Termination.
 
-![tcp_3way_HandShake_and_4-way_Connection_Termination ](34_(tcp_echo_server)/tcpserver_echo_with_netstat.gif)
-
+![tcp_echo_server](34_(tcp_echo_server)/tcp_3way_HandShake_and_4-way_Connection_Termination.gif)
 ## 35_(udp_echo_server)
 This directory implements a UDP echo server.
 
