@@ -17,8 +17,10 @@ Welcome to the System Programming on Linux repository! This repository contains 
 11. [34_(tcp_echo_server)](#34-tcp_echo_server)
 12. [35_(udp_echo_server)](#35-udp_echo_server)
 13. [36_(unixDomain_tcp)_(unixDomain_udp)](#36-unixDomain_tcp_unixDomain_udp)
-14. [files](#files)
-15. [random_examples](#random_examples)
+14. [37_(handle_multiple_clients)](#37-handle_multiple_clients)
+15. [files](#files)
+16. [random_examples](#random_examples)
+
 
 ---
 
@@ -155,6 +157,20 @@ This directory covers communication using Unix domain sockets for TCP and UDP pr
 
 ![unixDomain_communication](36_(unixDomain_tcp)_(unixDomain_udp)/unixDomain_udp/echo_unixdomain_udp.gif)
 
+
+## 37_(handle_multiple_clients)
+This directory focuses on handling multiple clients in a server-client architecture.
+
+**Contents:**
+- `tcpechoclient.cpp`: Client code for TCP echo server.
+- `tcpechoserver_mutiple_connection_fork.cpp`: TCP echo server handling multiple connections using fork.
+- `tcpechoserver_mutiple_connection_pthread.cpp`: TCP echo server handling multiple connections using detached pthread.
+- `tcpechoserver_mutiple_connection_select.cpp`: TCP echo server handling multiple connections  by do multiplexing on all descriptors ,  receives a string from client and will send it back to client.
+- `tcpechoserver_mutiple_connection_stdthread.cpp`: TCP echo server handling multiple connections using detached std::thread.
+
+![tcpechoserver_mutiple_connection_fork](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_fork.gif)
+
+![tcpechoserver_mutiple_connection_pthread](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_pthread.gif)
 
 ## files
 This directory contains miscellaneous file-related examples.
