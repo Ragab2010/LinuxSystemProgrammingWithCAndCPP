@@ -14,12 +14,14 @@ Welcome to the System Programming on Linux repository! This repository contains 
 8. [28_(message_queue)](#28-message_queue)
 9. [29_(ipc_shared_memory)](#29-ipc_shared_memory)
 10. [30-(map_file_by_mmap_at_memory)](#30-map_file_by_mmap_at_memory)
-11. [34_(tcp_echo_server)](#34-tcp_echo_server)
-12. [35_(udp_echo_server)](#35-udp_echo_server)
-13. [36_(unixDomain_tcp)_(unixDomain_udp)](#36-unixDomain_tcp_unixDomain_udp)
-14. [37_(handle_multiple_clients)](#37-handle_multiple_clients)
-15. [files](#files)
-16. [random_examples](#random_examples)
+11. [31_(race_condition)_(mutex)_(condition_vairables)](#31-race_condition_mutex_condition_variables)
+12. [34_(tcp_echo_server)](#34-tcp_echo_server)
+13. [35_(udp_echo_server)](#35-udp_echo_server)
+14. [36_(unixDomain_tcp)_(unixDomain_udp)](#36-unixDomain_tcp_unixDomain_udp)
+15. [37_(handle_multiple_clients)](#37-handle_multiple_clients)
+16. [files](#files)
+17. [random_examples](#random_examples)
+
 
 
 ---
@@ -171,6 +173,18 @@ This directory focuses on handling multiple clients in a server-client architect
 ![tcpechoserver_mutiple_connection_fork](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_fork.gif)
 
 ![tcpechoserver_mutiple_connection_pthread](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_pthread.gif)
+
+## 31_(race_condition)_(mutex)_(condition_vairables)
+This directory focuses on examples related to race conditions, mutexes, and condition variables.
+
+**Contents:**
+- `producer_consumer_Demonstrates_usage_condition_variables.cpp`: Example demonstrating the usage of condition variables in a producer-consumer scenario.
+- `thread_avoid_race_condition_pthread_mutex.cpp`: Example illustrating how to avoid race conditions using pthread mutex.
+- `thread_race_condition_simulator_pthread.cpp`: Example simulating a race condition scenario using pthread.
+- `thread_race_condition_simulator_stdthread.cpp`: Example simulating a race condition scenario using std::thread.
+- `thread_race_condition_simulator_stdthread_mutex.cpp`: Example simulating a race condition scenario using std::thread and mutex.
+
+![race_condition_mutex_condition_variables](31_(race_condition)_(mutex)_(condition_vairables)/race_condition_condition_variable_mutex.gif)
 
 ## files
 This directory contains miscellaneous file-related examples.
