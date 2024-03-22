@@ -59,6 +59,9 @@
         "thread": "cpp",
         "cstring": "cpp",
         "cerrno": "cpp",
-        "codecvt": "cpp"
+        "codecvt": "cpp",
+        "condition_variable": "cpp",
+        "future": "cpp",
+        "mutex": "cpp"
     }
 }
