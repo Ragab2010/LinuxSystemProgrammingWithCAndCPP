@@ -129,6 +129,18 @@ This directory demonstrates memory mapping of files using `mmap()`.
 
 ![map_file_by_mmap](30-(map_file_by_mmap_at_memory)/map_txtfile.gif)
 
+## 31_(race_condition)_(mutex)_(condition_vairables)
+This directory focuses on examples related to race conditions, mutexes, and condition variables.
+
+**Contents:**
+- `producer_consumer_Demonstrates_usage_condition_variables.cpp`: Example demonstrating the usage of condition variables in a producer-consumer scenario.
+- `thread_avoid_race_condition_pthread_mutex.cpp`: Example illustrating how to avoid race conditions using pthread mutex.
+- `thread_race_condition_simulator_pthread.cpp`: Example simulating a race condition scenario using pthread.
+- `thread_race_condition_simulator_stdthread.cpp`: Example simulating a race condition scenario using std::thread.
+- `thread_race_condition_simulator_stdthread_mutex.cpp`: Example simulating a race condition scenario using std::thread and mutex.
+
+![race_condition_mutex_condition_variables](31_(race_condition)_(mutex)_(condition_vairables)/race_condition_condition_variable_mutex.gif)
+
 ## 34_(tcp_echo_server)
 This directory implements a TCP echo server.
 
@@ -173,18 +185,6 @@ This directory focuses on handling multiple clients in a server-client architect
 ![tcpechoserver_mutiple_connection_fork](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_fork.gif)
 
 ![tcpechoserver_mutiple_connection_pthread](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_pthread.gif)
-
-## 31_(race_condition)_(mutex)_(condition_vairables)
-This directory focuses on examples related to race conditions, mutexes, and condition variables.
-
-**Contents:**
-- `producer_consumer_Demonstrates_usage_condition_variables.cpp`: Example demonstrating the usage of condition variables in a producer-consumer scenario.
-- `thread_avoid_race_condition_pthread_mutex.cpp`: Example illustrating how to avoid race conditions using pthread mutex.
-- `thread_race_condition_simulator_pthread.cpp`: Example simulating a race condition scenario using pthread.
-- `thread_race_condition_simulator_stdthread.cpp`: Example simulating a race condition scenario using std::thread.
-- `thread_race_condition_simulator_stdthread_mutex.cpp`: Example simulating a race condition scenario using std::thread and mutex.
-
-![race_condition_mutex_condition_variables](31_(race_condition)_(mutex)_(condition_vairables)/race_condition_condition_variable_mutex.gif)
 
 ## files
 This directory contains miscellaneous file-related examples.
