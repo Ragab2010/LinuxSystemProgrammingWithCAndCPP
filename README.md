@@ -15,12 +15,13 @@ Welcome to the System Programming on Linux repository! This repository contains 
 9. [29_(ipc_shared_memory)](#29-ipc_shared_memory)
 10. [30-(map_file_by_mmap_at_memory)](#30-map_file_by_mmap_at_memory)
 11. [31_(race_condition)_(mutex)_(condition_vairables)](#31-race_condition_mutex_condition_variables)
-12. [34_(tcp_echo_server)](#34-tcp_echo_server)
-13. [35_(udp_echo_server)](#35-udp_echo_server)
-14. [36_(unixDomain_tcp)_(unixDomain_udp)](#36-unixDomain_tcp_unixDomain_udp)
-15. [37_(handle_multiple_clients)](#37-handle_multiple_clients)
-16. [files](#files)
-17. [random_examples](#random_examples)
+12. [32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)](#32-named_binary_semaphore_unnamed_binary_semaphore_counting_semaphore)
+13. [34_(tcp_echo_server)](#34-tcp_echo_server)
+14. [35_(udp_echo_server)](#35-udp_echo_server)
+15. [36_(unixDomain_tcp)_(unixDomain_udp)](#36-unixDomain_tcp_unixDomain_udp)
+16. [37_(handle_multiple_clients)](#37-handle_multiple_clients)
+17. [files](#files)
+18. [random_examples](#random_examples)
 
 
 
@@ -140,6 +141,37 @@ This directory focuses on examples related to race conditions, mutexes, and cond
 - `thread_race_condition_simulator_stdthread_mutex.cpp`: Example simulating a race condition scenario using std::thread and mutex.
 
 ![race_condition_mutex_condition_variables](31_(race_condition)_(mutex)_(condition_vairables)/race_condition_condition_variable_mutex.gif)
+
+## 32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)
+This directory covers examples related to named and unnamed binary semaphores, as well as counting semaphores.
+
+**Contents:**
+- `count_semaphore.cpp`: Example demonstrating counting semaphores.
+
+![count_semaphore](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/count_semaphore.gif)
+- `named_semaphore`: Directory containing examples using named semaphores.
+  - `cpp20_thread_race_condition_simulator_stdthread_avoid_by_binary_named_semaphores.cpp`: Example demonstrating thread race condition avoidance using C++20 threads and named binary semaphores.
+  - `process_race_condition_processes_avoid_by_binary_named_semaphores.cpp`: Example demonstrating process race condition avoidance using processes and named binary semaphores.
+  - `process_race_condition_processes_simulator.cpp`: Example simulating a process race condition scenario.
+
+  ![process_race_condition_processes_avoid_by_binary_named_semaphores](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/named_semaphore/process_race_condition_processes_avoid_by_binary_named_semaphores.gif)
+  - `thread_race_condition_pthread_avoid_by_binary_named_semaphores.cpp`: Example demonstrating thread race condition avoidance using pthread and named binary semaphores.
+  - `thread_race_condition_pthread_simulator.cpp`: Example simulating a thread race condition scenario using pthread.
+
+  ![thread_race_condition_pthread_avoid_by_binary_named_semaphores](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/named_semaphore/thread_race_condition_pthread_avoid_by_binary_named_semaphores.gif)
+  - `thread_race_condition_serialize_avoid_by_binary_named_semaphores.cpp`: Example demonstrating thread race condition avoidance using serialization and named binary semaphores.
+  - `thread_race_condition_serialize_simulator.cpp`: Example simulating a thread race condition scenario using serialization.
+
+  ![thread_race_condition_serialize_avoid_by_binary_named_semaphores](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/named_semaphore/thread_race_condition_serialize_avoid_by_binary_named_semaphores.gif)
+  
+  - `thread_race_condition_stdthread_simulator.cpp`: Example simulating a thread race condition scenario using C++11 threads.
+- `unnamed_semaphore`: Directory containing examples using unnamed semaphores.
+  - `avoid_race_condition_by_using_unnamed_semaphores_for_threads_processes.gif`: GIF demonstrating avoidance of race conditions using unnamed semaphores for threads and processes.
+  - `process_race_condition_processes_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating process race condition avoidance using processes and unnamed binary semaphores.
+  - `thread_race_condition_pthread_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating thread race condition avoidance using pthread and unnamed binary semaphores.
+  - `thread_race_condition_serialize_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating thread race condition avoidance using serialization and unnamed binary semaphores.
+  
+![unnamed_binary_semaphore](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/unnamed_semaphore/avoid_race_condition_by_using_unnamed_semaphores_for_threads_processes.gif)
 
 ## 34_(tcp_echo_server)
 This directory implements a TCP echo server.
