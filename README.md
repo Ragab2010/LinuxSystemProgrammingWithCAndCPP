@@ -166,7 +166,6 @@ This directory covers examples related to named and unnamed binary semaphores, a
   
   - `thread_race_condition_stdthread_simulator.cpp`: Example simulating a thread race condition scenario using C++11 threads.
 - `unnamed_semaphore`: Directory containing examples using unnamed semaphores.
-  - `avoid_race_condition_by_using_unnamed_semaphores_for_threads_processes.gif`: GIF demonstrating avoidance of race conditions using unnamed semaphores for threads and processes.
   - `process_race_condition_processes_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating process race condition avoidance using processes and unnamed binary semaphores.
   - `thread_race_condition_pthread_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating thread race condition avoidance using pthread and unnamed binary semaphores.
   - `thread_race_condition_serialize_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating thread race condition avoidance using serialization and unnamed binary semaphores.
