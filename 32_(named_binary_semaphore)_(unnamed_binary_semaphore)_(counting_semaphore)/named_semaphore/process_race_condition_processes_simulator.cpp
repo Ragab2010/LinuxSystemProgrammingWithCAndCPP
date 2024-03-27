@@ -1,6 +1,6 @@
 
 /*
-*  process_race_condition_processes_simulator.cpp: The main() creates two threads,
+*  process_race_condition_processes_simulator.cpp: The main() creates two process,
 *  allocate shared memory segment for int8_t variable pCounter 
 *  parent do a fork and child process calls  increment() 
 *  parent process calls decrement() and then wait for termination of child

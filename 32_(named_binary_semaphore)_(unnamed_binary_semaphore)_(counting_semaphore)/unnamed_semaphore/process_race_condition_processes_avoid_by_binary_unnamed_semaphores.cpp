@@ -1,7 +1,7 @@
 
 
 /*
-*  thread_race_condition_processes_avoid_by_binary_unnamed_semaphores.cpp: The main() creates two threads,
+*  thread_race_condition_processes_avoid_by_binary_unnamed_semaphores.cpp: The main() creates two process,
 *  allocate shared memory segment for int8_t variable pCounter 
 *  allocate shared memory segment for sem_t variable 
 *  parent do a fork and child process calls  increment() 
