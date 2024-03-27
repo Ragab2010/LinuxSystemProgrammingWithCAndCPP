@@ -5,6 +5,27 @@ Welcome to the System Programming on Linux repository! This repository contains 
 
 **Reference Course:** The reference course for the system programming directory and code is [System Programming Playlist](https://www.youtube.com/playlist?list=PL7B2bn3G_wfC-mRpG7cxJMnGWdPAQTViW).
 
+## Introduction
+
+System programming involves writing software that directly interacts with the operating system kernel, hardware, and low-level system components. This repository aims to provide developers with practical examples and insights into system programming on the Linux platform, helping them build better software solutions.
+
+## Installation
+
+To run the code examples in this repository, ensure you have a suitable development environment set up with a compatible C/C++ compiler. Some examples may also require specific libraries or system configurations. Refer to individual directories for any additional instructions or dependencies.
+
+## Usage
+
+Navigate to the desired directory containing the code example you wish to explore. Follow the provided instructions to compile and run the code. Each directory typically contains multiple source files along with demonstration GIFs showcasing the execution of the code.
+
+## Contributing
+
+Contributions to this repository are welcome! If you have suggestions for new examples, improvements to existing code, or bug fixes, please follow these guidelines:
+
+1. Fork the repository and create your branch from the `main` branch.
+2. Ensure your code adheres to the established coding conventions and standards.
+3. Test your changes thoroughly to ensure they function as expected.
+4. Open a pull request detailing the changes you've made and any relevant information.
+
 ## Table of Contents
 
 1. [08_(atexit)_(on_exit)](#08-atexit-on_exit)
