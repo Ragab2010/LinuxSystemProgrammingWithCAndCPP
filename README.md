@@ -51,6 +51,27 @@ Contributions to this repository are welcome! If you have suggestions for new ex
 
 ---
 
+## 03_(static_lib)_(shared_lib)
+
+### Overview
+This directory demonstrates the creation and usage of both static and shared libraries. It includes the necessary source files, object files, and libraries, along with example programs that link against these libraries.
+
+### Directory Structure
+
+1. **shared_lib/**: Contains the shared library and a test driver program.
+    - **driver/**: Contains the test program `prog1.c`.
+    - **libmymath.so**: The shared library.
+    - **myadd.c, mydiv.c, mymul.c, mysub.c**: Source files for math operations.
+    - **mymath.h**: Header file for the library.
+
+2. **static_lib/**: Contains the static library and a test driver program.
+    - **driver/**: Contains the test program `prog1.c`.
+    - **libmymath.a**: The static library.
+    - **myadd.c, mydiv.c, mymul.c, mysub.c**: Source files for math operations.
+    - **mymath.h**: Header file for the library.
+
+This section allows for understanding the differences between static and shared libraries, how to compile them, and how to link them with C programs.
+
 ## 08_(atexit)_(on_exit)
 This directory explores the usage of `atexit()` and `on_exit()` functions in C/C++ for handling cleanup operations before program termination.
 
