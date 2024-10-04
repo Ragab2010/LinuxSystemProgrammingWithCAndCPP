@@ -3,7 +3,6 @@
 
 Welcome to the System Programming on Linux repository! This repository contains a variety of code examples covering different topics in system programming on the Linux platform. Each directory represents a different topic, and within each directory, you'll find relevant code examples along with demonstrations captured in GIF format to showcase the execution of the code.
 
-**Reference Course:** The reference course for the system programming directory and code is [System Programming Playlist](https://www.youtube.com/playlist?list=PL7B2bn3G_wfC-mRpG7cxJMnGWdPAQTViW).
 
 ## Introduction
 
