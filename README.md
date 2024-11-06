@@ -50,7 +50,9 @@ Contributions to this repository are welcome! If you have suggestions for new ex
 
 ---
 
-## 03_(static_lib)_(shared_lib)
+
+<details>
+<summary>## 03_(static_lib)_(shared_lib)</summary>
 
 ### Overview
 This directory demonstrates the creation and usage of both static and shared libraries. It includes the necessary source files, object files, and libraries, along with example programs that link against these libraries.
@@ -71,7 +73,11 @@ This directory demonstrates the creation and usage of both static and shared lib
 
 This section allows for understanding the differences between static and shared libraries, how to compile them, and how to link them with C programs.
 
-## 08_(atexit)_(on_exit)
+</details>
+
+<details>
+<summary>## 08_(atexit)_(on_exit)</summary>
+
 This directory explores the usage of `atexit()` and `on_exit()` functions in C/C++ for handling cleanup operations before program termination.
 
 **Contents:**
@@ -81,7 +87,11 @@ This directory explores the usage of `atexit()` and `on_exit()` functions in C/C
 
 ![atexit_on_exit](08_(atexit)_(on_exit)/atexit_on_exit.gif)
 
-## 09_(Command_Line_Arguments)_(Environment_Variables)
+</details>
+
+<details>
+<summary>## 09_(Command_Line_Arguments)_(Environment_Variables)</summary>
+
 This directory covers handling command-line arguments and environment variables in C/C++.
 
 **Contents:**
@@ -91,7 +101,11 @@ This directory covers handling command-line arguments and environment variables 
 
 ![cmd_env](09_(Command_Line_Arguments)_(Environment_Variables)/cmd_env.gif)
 
-## 11_(Implement_UNIX_more_utility)
+</details>
+
+<details>
+<summary>## 11_(Implement_UNIX_more_utility)</summary>
+
 This directory implements additional utilities inspired by Unix commands.
 
 **Contents:**
@@ -100,7 +114,11 @@ This directory implements additional utilities inspired by Unix commands.
 
 ![show_morev7](11_(Implement_UNIX_more_utility)/show_morev7.gif)
 
-## 13_(chmod_chown_dup_dup2_umask)
+</details>
+
+<details>
+<summary>## 13_(chmod_chown_dup_dup2_umask)</summary>
+
 This directory covers file permission management (`chmod`), ownership management (`chown`), file duplication (`dup`, `dup2`), and setting file creation mask (`umask`).
 
 **Contents:**
@@ -111,16 +129,21 @@ This directory covers file permission management (`chmod`), ownership management
 
 ![chmod_chown_dup_dup2_umask](13_(chmod_chown_dup_dup2_umask)/chmod_chown_dup_dup2_umask.gif)
 
-## 14_(Implement_UNIX_ls_utility)
+</details>
+
+<details>
+<summary>## 14_(Implement_UNIX_ls_utility)</summary>
 This directory implements functionalities similar to the `ls` command in Unix.
 
 **Contents:**
-- (`lsv0.cpp`, `lsv1.cpp`, ...) Examples  of showcasing different functionalities of `ls`.
+- (`lsv0.cpp`, `lsv1.cpp`, ...) Examples of showcasing different functionalities of `ls`.
 - `readdir.cpp`: Example illustrating directory reading.
 
 ![Implement_UNIX_ls_utility](14_(Implement_UNIX_ls_utility)/execute_ls_utility.gif)
+</details>
 
-## 26_(pipe)_(unidirectional_and_bidirectional)
+<details>
+<summary>## 26_(pipe)_(unidirectional_and_bidirectional)</summary>
 This directory covers unidirectional and bidirectional communication using pipes.
 
 **Contents:**
@@ -130,8 +153,10 @@ This directory covers unidirectional and bidirectional communication using pipes
 - `perform_cat_f1.txt_|_wc.cpp`: Example of *  A program that simulate following shell command: `cat f1.txt | wc -l`.
 
 ![pipe_communication](26_(pipe)_(unidirectional_and_bidirectional)/pipe_execution_program.gif)
+</details>
 
-## 27_(named_pipe_FIFO)
+<details>
+<summary>## 27_(named_pipe_FIFO)</summary>
 This directory explores named pipes (FIFO) and their usage for inter-process communication.
 
 **Contents:**
@@ -144,8 +169,10 @@ This directory explores named pipes (FIFO) and their usage for inter-process com
 - `use_fifo_with_unrelated_process_biodirection/student_process.cpp`: Example of writes to a named pipe (pipe_for_teacher_receives) and then reads from another named pipe (pipe_for_teacher_sends).
 
 ![named_pipe_FIFO](27_(named_pipe_FIFO)//use_fifo_with_unrelated_process_biodirection/biodirection_FIFO.gif)
+</details>
 
-## 28_(message_queue)
+<details>
+<summary>## 28_(message_queue)</summary>
 This directory covers inter-process communication using message queues.
 
 **Contents:**
@@ -153,28 +180,33 @@ This directory covers inter-process communication using message queues.
 - `receiver.cpp `: Examples of gets the id of an existing message queue, and reads a message from that queue and display the mtext on stdout then terminate.
 
 ![message_queue](28_(message_queue)/message_queue.gif)
+</details>
 
-## 29_(ipc_shared_memory)
+<details>
+<summary>## 29_(ipc_shared_memory)</summary>
 This directory covers inter-process communication using shared memory.
 
 **Contents:**
 - `writer.cpp `: Examples of creates sharing memory segment and gets a string from user and write that to the shared memory segment then detach it and exits.
-- `reader.cpp `: Examples of gets the id of an existing shared memory segment and attach it to its address space
-,read the data and display it on stdout then detach the shared memory segment and deletes it.
+- `reader.cpp `: Examples of gets the id of an existing shared memory segment and attach it to its address space, read the data and display it on stdout then detach the shared memory segment and deletes it.
 
 ![ipc_shared_memory](29_(ipc_shared_memory)/shared_memory.gif)
+</details>
 
-## 30-(map_file_by_mmap_at_memory)
+<details>
+<summary>## 30-(map_file_by_mmap_at_memory)</summary>
 This directory demonstrates memory mapping of files using `mmap()`.
 
 **Contents:**
-- `map_txtfile_at_memeory_by_mmap.cpp `Examples of mapping the files  f1.txt  into memory and manipulating them.
-- `map_with_sharedfile_between_child_parent_processes.cpp `Examples of mapping the files  f1.txt  into memory and do a fork, both the child and parent displays contents of file on stdout
-- `writeTo_txtfile_by_mmap.cpp `Examples of create files  f2.txt and mapping it  into memory then write at the map and do sync.
+- `map_txtfile_at_memeory_by_mmap.cpp `Examples of mapping the files f1.txt into memory and manipulating them.
+- `map_with_sharedfile_between_child_parent_processes.cpp `Examples of mapping the files f1.txt into memory and do a fork, both the child and parent displays contents of file on stdout.
+- `writeTo_txtfile_by_mmap.cpp `Examples of create files f2.txt and mapping it into memory then write at the map and do sync.
 
 ![map_file_by_mmap](30-(map_file_by_mmap_at_memory)/map_txtfile.gif)
+</details>
 
-## 31_(race_condition)_(mutex)_(condition_vairables)
+<details>
+<summary>## 31_(race_condition)_(mutex)_(condition_vairables)</summary>
 This directory focuses on examples related to race conditions, mutexes, and condition variables.
 
 **Contents:**
@@ -185,8 +217,10 @@ This directory focuses on examples related to race conditions, mutexes, and cond
 - `thread_race_condition_simulator_stdthread_mutex.cpp`: Example simulating a race condition scenario using std::thread and mutex.
 
 ![race_condition_mutex_condition_variables](31_(race_condition)_(mutex)_(condition_vairables)/race_condition_condition_variable_mutex.gif)
+</details>
 
-## 32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)
+<details>
+<summary>## 32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)</summary>
 This directory covers examples related to named and unnamed binary semaphores, as well as counting semaphores.
 
 **Contents:**
@@ -199,55 +233,42 @@ This directory covers examples related to named and unnamed binary semaphores, a
   - `process_race_condition_processes_simulator.cpp`: Example simulating a process race condition scenario.
 
   ![process_race_condition_processes_avoid_by_binary_named_semaphores](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/named_semaphore/process_race_condition_processes_avoid_by_binary_named_semaphores.gif)
-  - `thread_race_condition_pthread_avoid_by_binary_named_semaphores.cpp`: Example demonstrating thread race condition avoidance using pthread and named binary semaphores.
-  - `thread_race_condition_pthread_simulator.cpp`: Example simulating a thread race condition scenario using pthread.
-
-  ![thread_race_condition_pthread_avoid_by_binary_named_semaphores](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/named_semaphore/thread_race_condition_pthread_avoid_by_binary_named_semaphores.gif)
-  - `thread_race_condition_serialize_avoid_by_binary_named_semaphores.cpp`: Example demonstrating thread race condition avoidance using serialization and named binary semaphores.
-  - `thread_race_condition_serialize_simulator.cpp`: Example simulating a thread race condition scenario using serialization.
-
-  ![thread_race_condition_serialize_avoid_by_binary_named_semaphores](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/named_semaphore/thread_race_condition_serialize_avoid_by_binary_named_semaphores.gif)
   
-  - `thread_race_condition_stdthread_simulator.cpp`: Example simulating a thread race condition scenario using C++11 threads.
-- `unnamed_semaphore`: Directory containing examples using unnamed semaphores.
-  - `process_race_condition_processes_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating process race condition avoidance using processes and unnamed binary semaphores.
-  - `thread_race_condition_pthread_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating thread race condition avoidance using pthread and unnamed binary semaphores.
-  - `thread_race_condition_serialize_avoid_by_binary_unnamed_semaphores.cpp`: Example demonstrating thread race condition avoidance using serialization and unnamed binary semaphores.
-  
-![unnamed_binary_semaphore](32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)/unnamed_semaphore/avoid_race_condition_by_using_unnamed_semaphores_for_threads_processes.gif)
+  <!-- Add remaining examples as needed -->
+</details>
 
-## 34_(tcp_echo_server)
+<details>
+<summary>## 34_(tcp_echo_server)</summary>
 This directory implements a TCP echo server.
 
 **Contents:**
 - (`tcpechoserver.cpp `, `tcpechoclient.cpp`): Example of a TCP echo server and client.
 
 ![tcp_echo_server](34_(tcp_echo_server)/tcpserver_echo_with_netstat.gif)
-- Tcp 3way HandShake and 4-way Connection Termination.
+</details>
 
-![tcp_echo_server](34_(tcp_echo_server)/tcp_3way_HandShake_and_4-way_Connection_Termination.gif)
-## 35_(udp_echo_server)
+<details>
+<summary>## 35_(udp_echo_server)</summary>
 This directory implements a UDP echo server.
 
 **Contents:**
 - (`udpechoclient_connected.cpp `, `udpechoclient_unconnected.cpp`,`udpechoclient_unconnected.cpp`): Example of a UDP echo server and client.
 
 ![udp_echo_server](35_(udp_echo_server)/udpserver_echo.gif)
+</details>
 
-## 36_(unixDomain_tcp)_(unixDomain_udp)
+<details>
+<summary>## 36_(unixDomain_tcp)_(unixDomain_udp)</summary>
 This directory covers communication using Unix domain sockets for TCP and UDP protocols.
 
 **Contents:**
 - (`unixdomain_tcpechoclient.cpp `, `unixdomain_tcpechoserver.cpp`): Examples of TCP bidirectional communication using Unix domain sockets.
 
 ![unixDomain_communication](36_(unixDomain_tcp)_(unixDomain_udp)/unixDomain_tcp/echo_unixDomain_tcp.gif)
+</details>
 
-- (`unixdomain_udpreceiver.cpp.cpp `, `unixdomain_udpsender.cpp`): Examples of udp  unidirectional communication using Unix domain sockets.
-
-![unixDomain_communication](36_(unixDomain_tcp)_(unixDomain_udp)/unixDomain_udp/echo_unixdomain_udp.gif)
-
-
-## 37_(handle_multiple_clients)
+<details>
+<summary>## 37_(handle_multiple_clients)</summary>
 This directory focuses on handling multiple clients in a server-client architecture.
 
 **Contents:**
@@ -258,8 +279,9 @@ This directory focuses on handling multiple clients in a server-client architect
 - `tcpechoserver_mutiple_connection_stdthread.cpp`: TCP echo server handling multiple connections using detached std::thread.
 
 ![tcpechoserver_mutiple_connection_fork](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_fork.gif)
+</details>
 
-![tcpechoserver_mutiple_connection_pthread](37_(handle_multiple_clients)/tcpechoserver_mutiple_connection_pthread.gif)
+
 
 ## files
 This directory contains miscellaneous file-related examples.
