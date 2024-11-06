@@ -52,7 +52,7 @@ Contributions to this repository are welcome! If you have suggestions for new ex
 
 
 <details>
-<summary>## 03_(static_lib)_(shared_lib)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 03_(static_lib)_(shared_lib)</summary>
 
 ### Overview
 This directory demonstrates the creation and usage of both static and shared libraries. It includes the necessary source files, object files, and libraries, along with example programs that link against these libraries.
@@ -76,7 +76,7 @@ This section allows for understanding the differences between static and shared 
 </details>
 
 <details>
-<summary>## 08_(atexit)_(on_exit)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 08_(atexit)_(on_exit)</summary>
 
 This directory explores the usage of `atexit()` and `on_exit()` functions in C/C++ for handling cleanup operations before program termination.
 
@@ -90,7 +90,7 @@ This directory explores the usage of `atexit()` and `on_exit()` functions in C/C
 </details>
 
 <details>
-<summary>## 09_(Command_Line_Arguments)_(Environment_Variables)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 09_(Command_Line_Arguments)_(Environment_Variables)</summary>
 
 This directory covers handling command-line arguments and environment variables in C/C++.
 
@@ -104,7 +104,7 @@ This directory covers handling command-line arguments and environment variables 
 </details>
 
 <details>
-<summary>## 11_(Implement_UNIX_more_utility)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 11_(Implement_UNIX_more_utility)</summary>
 
 This directory implements additional utilities inspired by Unix commands.
 
@@ -117,7 +117,7 @@ This directory implements additional utilities inspired by Unix commands.
 </details>
 
 <details>
-<summary>## 13_(chmod_chown_dup_dup2_umask)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 13_(chmod_chown_dup_dup2_umask)</summary>
 
 This directory covers file permission management (`chmod`), ownership management (`chown`), file duplication (`dup`, `dup2`), and setting file creation mask (`umask`).
 
@@ -132,7 +132,7 @@ This directory covers file permission management (`chmod`), ownership management
 </details>
 
 <details>
-<summary>## 14_(Implement_UNIX_ls_utility)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 14_(Implement_UNIX_ls_utility)</summary>
 This directory implements functionalities similar to the `ls` command in Unix.
 
 **Contents:**
@@ -143,7 +143,7 @@ This directory implements functionalities similar to the `ls` command in Unix.
 </details>
 
 <details>
-<summary>## 26_(pipe)_(unidirectional_and_bidirectional)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 26_(pipe)_(unidirectional_and_bidirectional)</summary>
 This directory covers unidirectional and bidirectional communication using pipes.
 
 **Contents:**
@@ -156,7 +156,7 @@ This directory covers unidirectional and bidirectional communication using pipes
 </details>
 
 <details>
-<summary>## 27_(named_pipe_FIFO)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 27_(named_pipe_FIFO)</summary>
 This directory explores named pipes (FIFO) and their usage for inter-process communication.
 
 **Contents:**
@@ -172,7 +172,7 @@ This directory explores named pipes (FIFO) and their usage for inter-process com
 </details>
 
 <details>
-<summary>## 28_(message_queue)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 28_(message_queue)</summary>
 This directory covers inter-process communication using message queues.
 
 **Contents:**
@@ -183,7 +183,7 @@ This directory covers inter-process communication using message queues.
 </details>
 
 <details>
-<summary>## 29_(ipc_shared_memory)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 29_(ipc_shared_memory)</summary>
 This directory covers inter-process communication using shared memory.
 
 **Contents:**
@@ -194,7 +194,7 @@ This directory covers inter-process communication using shared memory.
 </details>
 
 <details>
-<summary>## 30-(map_file_by_mmap_at_memory)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 30-(map_file_by_mmap_at_memory)</summary>
 This directory demonstrates memory mapping of files using `mmap()`.
 
 **Contents:**
@@ -206,7 +206,7 @@ This directory demonstrates memory mapping of files using `mmap()`.
 </details>
 
 <details>
-<summary>## 31_(race_condition)_(mutex)_(condition_vairables)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 31_(race_condition)_(mutex)_(condition_vairables)</summary>
 This directory focuses on examples related to race conditions, mutexes, and condition variables.
 
 **Contents:**
@@ -220,7 +220,7 @@ This directory focuses on examples related to race conditions, mutexes, and cond
 </details>
 
 <details>
-<summary>## 32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 32_(named_binary_semaphore)_(unnamed_binary_semaphore)_(counting_semaphore)</summary>
 This directory covers examples related to named and unnamed binary semaphores, as well as counting semaphores.
 
 **Contents:**
@@ -238,7 +238,7 @@ This directory covers examples related to named and unnamed binary semaphores, a
 </details>
 
 <details>
-<summary>## 34_(tcp_echo_server)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 34_(tcp_echo_server)</summary>
 This directory implements a TCP echo server.
 
 **Contents:**
@@ -248,7 +248,7 @@ This directory implements a TCP echo server.
 </details>
 
 <details>
-<summary>## 35_(udp_echo_server)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 35_(udp_echo_server)</summary>
 This directory implements a UDP echo server.
 
 **Contents:**
@@ -258,7 +258,7 @@ This directory implements a UDP echo server.
 </details>
 
 <details>
-<summary>## 36_(unixDomain_tcp)_(unixDomain_udp)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 36_(unixDomain_tcp)_(unixDomain_udp)</summary>
 This directory covers communication using Unix domain sockets for TCP and UDP protocols.
 
 **Contents:**
@@ -268,7 +268,7 @@ This directory covers communication using Unix domain sockets for TCP and UDP pr
 </details>
 
 <details>
-<summary>## 37_(handle_multiple_clients)</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">## 37_(handle_multiple_clients)</summary>
 This directory focuses on handling multiple clients in a server-client architecture.
 
 **Contents:**
